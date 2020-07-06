@@ -1,0 +1,55 @@
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+
+}
+
+@media (min-width:800px){
+  h1::before{
+    content: "Learn about Mr. Beast here!"
+  }
+}
+
+@media (max-width:799px){
+  h1::before{
+    content: "About Mr. Beast!"
+  }
+}
+
+p::selection{
+  background-color: yellow;
+}
+
+ul li{
+  color: blue;
+}
+
+body{
+  background: url(https://mystickermania.com/cdn/stickers/noob-pack/sticker_2304.png);
+  background-size: 10%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+div1{
+  font-weight: bold;
+}
+
+.row > div {
+  padding: 20px;
+  border: 2px solid black;
+}
+
+h2{
+  background-color: #30b3ac;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
